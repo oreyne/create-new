@@ -9,3 +9,5 @@ class ProductList extends React.Component {
 		);
 	}
 }
+
+export default ProductList;
