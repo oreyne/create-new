@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import './semantic-dist/semantic.css';
+
 import ProductList from './components/ProductList';
 
 function App() {
