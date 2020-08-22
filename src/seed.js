@@ -10,7 +10,7 @@ import ava4 from './images/avatars/molly.png';
 
 export const products = [
     {
-      id: 1,
+      id: 0,
       title: 'Yellow Pail',
       description: 'On-demand sand castle construction expertise.',
       url: '#',
@@ -19,7 +19,7 @@ export const products = [
       productImageUrl: prod1,
     },
     {
-      id: 2,
+      id: 1,
       title: 'Supermajority: The Fantasy Congress League',
       description: 'Earn points when your favorite politicians pass legislation.',
       url: '#',
@@ -28,7 +28,7 @@ export const products = [
       productImageUrl: prod2,
     },
     {
-      id: 3,
+      id: 2,
       title: 'Tinfoild: Tailored tinfoil hats',
       description: 'We already have your measurements and shipping address.',
       url: '#',
@@ -37,7 +37,7 @@ export const products = [
       productImageUrl: prod3,
     },
     {
-      id: 4,
+      id: 3,
       title: 'Haught or Naught',
       description: 'High-minded or absent-minded? You decide.',
       url: '#',

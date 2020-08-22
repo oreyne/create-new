@@ -3,6 +3,10 @@ import React from 'react';
 // import prod from './../images/products/image-aqua.png';
 
 class Product extends React.Component {
+	handleUpVote = () => {
+		this.props.onVote(this.props.id);
+	}
+
 	render() {
 		return (
 			<div className='item'>
@@ -11,7 +15,7 @@ class Product extends React.Component {
 				</div>
 				<div className='middle aligned content'>
 					<div className='header'>
-						<a href='www.google.com'>
+						<a onClick={this.handleUpVote}>
 							<i className='large caret up icon' />
 						</a>
 						{this.props.votes}
