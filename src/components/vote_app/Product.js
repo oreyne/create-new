@@ -1,6 +1,4 @@
 import React from 'react';
-// import logo from './../images/avatars/daniel.jpg';
-// import prod from './../images/products/image-aqua.png';
 
 class Product extends React.Component {
 	handleUpVote = () => {

@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import './semantic-dist/semantic.css';
 
-import ProductList from './components/ProductList';
+import ProductList from './components/vote_app/ProductList';
 
 function App() {
   return (
