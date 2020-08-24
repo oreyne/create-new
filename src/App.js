@@ -1,13 +1,14 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import './semantic-dist/semantic.css';
 
-import ProductList from './components/vote_app/ProductList';
+// import ProductList from './components/vote_app/ProductList';
+import TimersDashboard from './components/timer_app/TimersDashboard';
 
 function App() {
   return (
-    <ProductList />
+    // <ProductList />
+    <TimersDashboard />
   );
 }
 
